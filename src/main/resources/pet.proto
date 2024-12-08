@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+package hu.pbes.blog.protobuf;
+
+message Pet {
+  required string name = 1;
+  optional int32 age = 2;
+  repeated string skills = 3;
+}
